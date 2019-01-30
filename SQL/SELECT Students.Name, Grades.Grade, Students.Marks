@@ -1,0 +1,29 @@
+SELECT Students.Name, Grades.Grade, Students.Marks
+FROM Students
+INNER JOIN Grades
+ON Students.Marks BETWEEN Grades.Min_Mark AND Max_Mark
+WHERE Grades.Grade > 
+7ORDER BY Grades.Grade DESC, Students.Name ASC;
+
+SELECT null, Grades.Grade, Students.Marks 
+FROM Students INNER JOIN Grades 
+ON Students.Marks BETWEEN Grades.Min_Mark AND Max_Mark 
+WHERE Grades.Grade <= 7 
+ORDER BY Grades.Grade DESC, Students.Name ASC;
+
+-- Copied from o1bloody1o solution
+
+
+select h.hacker_id, h.name
+from hackers h
+inner join submissions s
+on h.hacker_id = s.hacker_id
+inner join challenges c
+on s.challenge_id = c.challenge_id
+inner join difficulty d
+on c.difficulty_level = d.difficulty_level 
+where s.score = d.score and c.difficulty_level = d.difficulty_level
+group by h.hacker_id, h.name
+having count(s.hacker_id) > 1
+order by count(s.hacker_id) desc, s.hacker_id as
+c

@@ -1,0 +1,32 @@
+Interviews:
+
+Goodcore
+
+Fails:
+- logarithm
+- Databases GroupBy
+- JavaScript all variables treated as String
+- Object Oriented Inheritance
+- Object Oriented Composition
+- 
+
+
+
+Recruiter 101
+
+What is the ideal candidate for this job?
+What is the hardest part about filling this job?
+
+
+Tell me about your experience?
+What are you looking for?
+
+“Why should we hire you?”
+
+1. Green Card
+2. Reputable college
+3. Relocation
+4. programming languages you’re familiar with. 
+
+
+
