@@ -1,0 +1,81 @@
+Some common problems asked in Amazon Interviews(both online and F2F) :
+
+Save all leaf nodes of a Binary tree in a Doubly Linked List by using Right node as Next node and Left Node as Previous Node.
+
+
+Given an array,find the maximum j – i such that arr[j] > arr[i]
+
+Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurences of each character.
+Example: Input: “you got beautiful eyes”
+Output: ”you gtbeaiful es”
+Allowed Time Complexity was O(n) 
+and Space Complexity was O(1)
+
+
+In a file there are 1 million words . Find 10 most frequent words in that file.
+// Try with Tries
+
+Find all nodes at k-distance from a given node in a binary tree
+
+
+
+Clone a linked list with next and random pointer
+Serialise and Deserialise a linked list with next and random pointer.
+Construct a binary tree from given inorder and preorder traversals.
+Return a tree such that each internal node stores sum of all its child nodes. Each leaf node stores zero.
+How will you implement linked list with 1 million nodes? How will you access 999999 th node? Give some optimal design strategy and implementation.
+Reversal of Linked List in groups of K.
+Given a positive integer N, count all possible distinct binary strings of length N such that there are no consecutive 1’s.
+Check whether given binary tree is balanced or not. Definition was no two leaves should have height difference of greater than one.
+Remove duplicates from string in place in O(n).
+Connect nodes on same level in a binary tree.
+Find sum of data of all leaves of a binary tree on same level and then multiply sums obtained of all levels.
+Given a matrix of characters and a word.
+you have to count the number of occurrences of that word in that matrix. you can move to any of the eight valid directions from current position.
+You are given an string as input which represents a path. You have to normalize that path inplace(NO EXTRA SPACE).
+e.g. input : "\a\b\c\..\..\file.txt"
+output: "\a\file.txt"
+Least common ancestor of two nodes in a binary tree
+Given two sorted arrays (with repetitive elements) find the kth minimum number from both arrays.
+Given the root to a binary tree, a value n and k.Find the sum of nodes at distance k from node with value n
+Find an element in a rotated array
+Given two linked lists both represent a number. Create a linked list that contains its sum.
+Given a binary search tree , print the path which has the sum equal to k and has minimum hops. i.e if there are multiple paths with the sum equal to k then print the path with minimum number of nodes.
+A MxN matrix containing integers (positive, negative and zero’s). For every position containing 0, mark the corresponding row and column as 0.
+Rotate MxN matrix by 90 degress.
+Find the nth number that contains the digit k or is divisible by k. (2 <= k <= 9)
+Write a program to connect next left node in a binary tree. Also first node of each level should be pointing to last node of next level? (Without using Queue)
+Convert a binary tree to its sum tree(each node is the sum of its children)
+Given a directed graph. Construct another graph from given graph such that if path exists from vertices A to vertices B and from B to C, then path from A to C and from C to A also should exists.
+Implement hashmap on your own. Write good hashing function for string.
+Given an array, arrange the elements such that the number formed by concatenating the elements is highest. 
+E.g.: input = [9, 93, 24, 6], the output should be: [9,93,6,24]. This is because if you concatenate all the numbers, 993624 is the highest number that can be formed.
+Given a string, find the longest substring which is palindrome.
+Given that integers are read from a data stream. Find median of elements read so for in efficient way. For simplicity assume there are no duplicates.
+Write an efficient program for printing k largest elements in an array. Elements in array can be in any order.
+Given unsorted array and a number K. Find 2 numbers such that sum is K.
+Given n-ary tree. zigzag level order traversal.
+Given string s and string t find whether all permutation of t is present as substring in s.
+Design a stack which holds an integer value such that getMinimum() function should return the minimum element in the stack. Implement popMin() function which would pop minimum element from the original stack.
+Given a set of intervals like 5-10, 15-20, 25-40, 30-45, 50-100. Find the ith smallest number in these intervals. Assume there are no duplicate numbers.
+e.g:  1st smallest number = 5	  
+6th smallest number = 10	  
+7th smallest number = 15 and so on. 
+Given an array which is first strictly increasing and then strictly decreasing. Find an element in this array.
+Given a string example : shoppingwithflipkartiseasy, Now we are given this string and a dictionary containing valid words , now we need to break the sentence into words separated by space. Output : shopping with flipkart is easy
+Given a series 2,3,4,5,6,8,9,10,……, here in this series all the numbers are present which have factors only and only either 2,3 or 5. Need to write a node to generate nth number for the series . With best approach and complexity
+Given a tree with edge weights, find any path in the tree with maximum sum of edges.
+Merge k sorted arrays.
+Given a maze, a start point and end point find the shortest path to reach the end point from the starting point.
+Given a sentence and a set of characters. Find the minimum window within which the set of characters can be found in the sentence in any order.
+You are given a string of 0’s and 1’s you have to find the number of substrings in the string which starts and end with a 1.
+eg : input : 0010110010
+output : 6
+You are given a mapping like a -> 1, b-> 2… z-> 26. You have to print all possible combinations of a given number using the above information.
+eg : input : 121
+output : aba,la,au
+Given a dictionary of 50,000 words. Given a phrase without spaces, add spaces to make it a proper sentence.
+e.g:input:  thequickbrownfoxjumpoverlazydog	
+output: the quick brown fox jump over lazy dog
+Get the next bigger number using the same digits of a number. 
+Eg, For 123456, next number would be 123465
