@@ -1,0 +1,33 @@
+apply lists, maps, stacks, pQs, binary trees, graphs,bags and sets.
+
+how to implement? why chose one over another?
+
+greedy, divide and conquer, dynamic programming, recursion, brute force
+
+
+EXTRA: cuckoo hasing, dual pivot quicksort
+
+Robert Sedgewick's courses Princeton
+Tim Roughgarden's courses from Stanford
+
+BOOK: Programming Interviews Exposed
+
+
+
+
+APTITUDES worth testing:
+-recursion
+-pointers
+-threading and shared data
+-representation and encoding of data
+-data lifecycles and ownership
+-protocols
+-testability
+-API design
+
+NOT WORTH testing:
+-C++11 arcana,
+-OOP design patters,
+-Dynamic Programming (testing alot)
+-Hashing (tested alot)
+
