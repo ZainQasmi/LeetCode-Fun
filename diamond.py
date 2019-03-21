@@ -150,12 +150,33 @@ def myPrintDiamond(size):
 	# 				print '-',
 	# 		print
 
+
+def myPrintDiamond2(n):
+	mid = n/2
+	for i in range(mid):
+	  for j in range(n):
+	    if (j<=mid+i and j>=mid-i):
+	      print '*',
+	    else:
+	      print '-',
+	  print
+	
+	
+	for i in range(mid+1):
+	  for j in range(n):
+	    if (j<n-i and j>i-1):
+	      print '*',
+	    else:
+	      print '-',
+	  print
+
 def main():
 	# printDiamond1(int(sys.argv[1]))
 	# printDiamond2(int(sys.argv[1]))
 	# printDiamond3(int(sys.argv[1]))
 	# printDiamond4(int(sys.argv[1]))
-	myPrintDiamond(int(sys.argv[1]))
+	# myPrintDiamond(int(sys.argv[1]))
+	myPrintDiamond2(int(sys.argv[1]))
 
 if __name__ == "__main__":
 	main()
