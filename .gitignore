@@ -1,0 +1,5 @@
+# Junk files
+.DS_Store
+
+# Python bytecode
+*.pyc
