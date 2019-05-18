@@ -1,2 +1,3 @@
 # LeetCode-Fun
-Yolo
+
+Random Data Structures and Algorithms questions from Leetcode, Hackerank etc 
