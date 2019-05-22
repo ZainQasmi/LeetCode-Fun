@@ -1,0 +1,19 @@
+Q3. MCQ's
+
+(a) What does this function do?
+
+int Tree::someFunction(tree *node) {
+    if (!node) return -1;
+
+    return 1 + max(someFunction(node->left), someFunction(node->right));
+}
+
+
+Ans. Calculates height of binary tree
+
+
+(b) Order of operations in Object Oriented Programming. Don't remember the code. 
+
+
+Learn it here
+https://www.geeksforgeeks.org/order-constructor-destructor-call-c/
