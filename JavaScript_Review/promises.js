@@ -24,8 +24,6 @@ let winIceCream = function(msg) {
    console.log('finished ' + result);
  })
 
-
-
 //  let promiseToCleanTheRoom = new Promise(function(resolve,reject) {
 //   //cleaning the room
 //   let isClean = false;
@@ -44,3 +42,27 @@ let winIceCream = function(msg) {
 // })
 
 
+// ============================================================================================================
+
+$.ajax({
+  url: "a.json",
+  success: function(r) {
+    $.ajax({
+      url: "b.json" + r.a,
+      success: function(result) {
+        $("#div1").html(result);
+      }
+    });
+  }
+});
+
+// Just nicer to look at
+var p1 = new Promise(function(resolve, reject) {
+  resolve($.ajax("a.json"));
+});
+
+p1.then(function(r){
+  return new Promise()
+}).then(function(result){
+  $("#div1").html(result);
+})

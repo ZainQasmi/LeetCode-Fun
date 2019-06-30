@@ -1,0 +1,20 @@
+How would you test this https://dog.ceo/dog-api/?
+
+Web App testing:
+- Check all the links:
+     such as documentation, pull request (takes you to GitHub), "Buy me a great dog" should take you to Paypal. In short, all the links should be working. See if they redirect to a 404 (broken link) or same page.
+- Check the form: 
+    subscription email (makes the right AJAX calls). Returns a 200 status code. Resubscribing via a registered email returns an error code.
+    email validation. Must have '@'' and domain name etc
+- Cookies:
+    Test application by enabling/disabling cookies in the browser.
+- Check GUI
+    Changing screen size/resolution does not result in overlapping HTML objects. Scaling is maintained regardless of the device/operating system(browser) or screen size.
+
+Testing API:
+    - Create tests for all possible input combinations of the API. Like, make test cases for all specific dog breeds and sub-breeds. Multiple images API etc. 
+    - ideally, use the list of all breeds (https://dog.ceo/api/breeds/list/all) API call to see if all the breeds exist and are accurate. Use an image recognition engine like sensor flow for verification.
+    - Does the random image API return a random (different) image every time? Are the image links valid?
+    - how to gracefully handle a client(s) sending 1 million requests per second. Does it crash the server? Is server overload handled gracefully
+    - Public data so no need for authentication testing.
+    - Only GET methods should be accepted for security except for email subscription.
