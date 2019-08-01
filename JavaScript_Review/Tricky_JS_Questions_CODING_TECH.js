@@ -120,7 +120,7 @@ console.log(baz === undefined); // FALSE...YASSSSS
 
 // ============================================================================================================
 // 10) When to use arrow functions
-const profile = {
+Aconst profile = {
 	firstName: '',
 	lastName: '',
 	setName: function(name) {
